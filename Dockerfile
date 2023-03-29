@@ -7,6 +7,7 @@ RUN pip3 install --no-cache openai pathlib
 RUN apk --no-cache add musl-dev linux-headers g++
 RUN apk --no-cache add python3-dev
 RUN pip3 install --no-cache pandas
+RUN apk --no-cache add gfortran openblas-dev lapack-dev pkgconf
 RUN pip3 install --no-cache scikit-learn
 
 WORKDIR /app
