@@ -19,7 +19,7 @@
     /            /                        \                           |
 piece1         piece2  ...........       piece(N)                     |
    |             |                         |                          |
-embedding1     embedding2     ......     embedding1                   |
+embedding1     embedding2     ......     embeddingN                   |
    |             |                         |                          |
  --X-------------X---------.....-----------X-----------------   question_embedding  
    |             |                         |                          |
